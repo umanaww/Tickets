@@ -1,4 +1,4 @@
-if (window.innerWidth <= 375) {
+if (window.innerWidth <= 450) {
     window.location.href = "book.html";
 }
 
