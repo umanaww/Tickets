@@ -1,5 +1,5 @@
 window.onload = function() {
-    if (window.innerWidth <= 375) {
+    if (window.innerWidth <= 450) {
         var footerSections = document.querySelectorAll('.footer-section');
         for (var i = 0; i < footerSections.length; i++) {
             var h3 = footerSections[i].querySelector('h3');
