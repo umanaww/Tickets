@@ -474,7 +474,8 @@ footer {
         /* Стили для кнопки закрытия */
         .close {
             color: #606060;
-            float: right;
+            display: flex;
+            justify-content: end;
             font-size: 29px;
             font-weight: bold;
             
@@ -686,6 +687,7 @@ footer {
             font-size: 16px;
             line-height: 14px;
           }
+
           @media(max-width:450px) {
             .header{
                 display: flex;
@@ -713,6 +715,21 @@ footer {
         margin-top:  15px;
         height: 10%;
            }
+           #myBtn{
+            padding: 30px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 12px;
+            text-align: center;
+            background: #c84332;
+            color:white;
+            border-radius: 4px;
+            border:none;
+            font-size: 14px;
+            display:flex;
+            margin-left: 210px;
+        }
+          
     
             .div_hero {
                 width: 90%;
@@ -858,4 +875,15 @@ border-color: #000;
     flex-direction: column;
     align-items: center;
 }
-    }
+
+.end-card-img{
+  width:116%;
+  height:221px;
+  border-radius: 2px;
+}
+
+.inc,.dec{
+  padding-left: 12px;
+  padding-right:12px;
+}
+          }
