@@ -688,7 +688,7 @@ footer {
             line-height: 14px;
           }
 
-          @media(max-width:450px) {
+          @media(max-width:500px) {
             .header{
                 display: flex;
                 justify-content: space-around;
